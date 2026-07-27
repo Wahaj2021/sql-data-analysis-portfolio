@@ -26,4 +26,3 @@ customers, and investigate the underlying cause of the German churn gap
 Churn rate via AVG of a 0/1 flag, CASE segmentation, RANK, ROW_NUMBER,
 AVG OVER (PARTITION BY), multi-condition risk scoring, CTEs.
 
-![Retention target list](output.png)

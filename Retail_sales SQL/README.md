@@ -21,4 +21,4 @@ across gender, age, product category and time.
 ## Techniques
 GROUP BY, CASE bucketing, DATE_FORMAT, RANK, LAG, ROW_NUMBER, PARTITION BY, CTEs.
 
-![Category revenue by rank and share](output.png)
+

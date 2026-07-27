@@ -17,13 +17,17 @@ analysis, leaving ~530,000 clean rows.
 - How is customer value distributed?
 
 ## Key findings
-- **The UK dominates revenue at [UK %]%** of the total.
-- **Customer value is concentrated** — the top "[VIP]" segment is a small
-  share of customers but drives [VIP revenue %]% of revenue (a Pareto pattern).
-- [Add one product or trend finding from your results.]
+- **The UK dominates revenue at 84.6% of the total.** Among international
+  markets, the Netherlands and Ireland (EIRE) are the largest, each around
+  £570k, followed by Germany and France.
+- **Customer value is heavily concentrated (Pareto pattern).** VIP customers
+  (spending £5,000+) are just 704 people but drive **70.5% of all revenue**.
+  Adding the next tier, roughly 95% of revenue comes from a minority of
+  customers, while ~1,800 low/medium spenders contribute little.
+- This concentration means retaining a small VIP group protects the majority
+  of revenue, which should shape where customer effort goes.
 
 ## Techniques
 Bulk loading with type conversion, character-encoding handling, views,
 GROUP BY/HAVING, LAG, SUM OVER, CTEs, RFM-style customer analysis.
 
-![Customer value segments](output.png)
